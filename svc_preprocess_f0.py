@@ -22,7 +22,7 @@ def compute_f0(path):
 
 
 if __name__ == "__main__":
-    os.makedirs("filelists", exist_ok=True)
+    os.makedirs("./filelists/", exist_ok=True)
     files = open("./filelists/train.txt", "w", encoding="utf-8")
 
     rootPath = "./data_svc/waves/"

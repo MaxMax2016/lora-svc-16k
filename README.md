@@ -3,7 +3,7 @@
 ```per
 maxgan v1 == bigvgan + nsf        PlayVoice/lora-svc
 
-maxgan v2 == bigvgan + latent f0  PlayVoice/maxgan-svc
+maxgan v2 == bigvgan + latent f0  PlayVoice/max-svc
 ```
 
 
@@ -45,9 +45,9 @@ data tree like this
     │     │   ├── 000002.pit.npy
     │     │   └── 000003.pit.npy
     │     └── spk2
-    │         ├── 000001_pit.npy
-    │         ├── 000002_pit.npy
-    │         └── 000003_pit.npy
+    │         ├── 000001.pit.npy
+    │         ├── 000002.pit.npy
+    │         └── 000003.pit.npy
     └── speakers
     │     ├── spk1
     │     │   ├── 000001.spk.npy
@@ -129,16 +129,6 @@ DSD100 		  https://sigsep.github.io/datasets/dsd100.html
 Aishell-3 	http://www.aishelltech.com/aishell_3
 
 VCTK 		    https://datashare.ed.ac.uk/handle/10283/2651
-
-## Awesome opensource singing voice conversion
-
-https://github.com/innnky/so-vits-svc
-
-https://github.com/prophesier/diff-svc
-
-https://github.com/yxlllc/DDSP-SVC
-
-https://github.com/lesterphillip/SVCC23_FastSVC
 
 # Notice
 If you adopt the code or idea of this project, please list it in your project, which is the basic criterion for the continuation of the open source spirit.
