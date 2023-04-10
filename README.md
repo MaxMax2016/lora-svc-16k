@@ -75,6 +75,19 @@ data tree like this
               ├── 000001.ppg.npy
               ├── 000002.ppg.npy
               └── 000003.ppg.npy
+![image](https://user-images.githubusercontent.com/16432329/230908037-127becb9-ed2a-41b5-8ac6-c9791ec2f7c7.png)
+
+## Fast and Last
+
+fast step has loss: 0~60K
+
+> loss_g = score_loss + stft_loss + mel_loss
+
+last step has denoise code and loss: 60K~120K
+
+> x = x + torch.randn_like(x)
+
+> loss_g = score_loss + stft_loss
 
 ## Infer
 export clean model
