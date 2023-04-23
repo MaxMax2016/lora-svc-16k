@@ -93,10 +93,10 @@ Your file directory should look like this~~~
 
 ## Train LoRA
 
-https://github.com/PlayVoice/lora-svc/blob/d3a1df57e6019c12513bb34e1bd5c8162d5e5055/config/maxgan.yaml#L16
+https://github.com/PlayVoice/lora-svc-16k/blob/aa09f6ec16f382fdeeacc4fd80dadfc1f3babb8a/config/maxgan.yaml#L16
 
 
-https://github.com/PlayVoice/lora-svc/blob/d3a1df57e6019c12513bb34e1bd5c8162d5e5055/utils/train.py#L34-L35
+https://github.com/PlayVoice/lora-svc-16k/blob/d3a1df57e6019c12513bb34e1bd5c8162d5e5055/utils/train.py#L34-L35
 
 How to use
 
